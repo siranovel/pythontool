@@ -12,8 +12,10 @@ pythontool
   pythonのsite情報表示
 * pysysconfiginfo  
   pythonのsysconfig情報表示
-* pysysinfo
+* pysysinfo  
   pythonのsys情報表示
+* pytarinfo  
+  pythonのtarfile情表示
   
 ## Demo ##
 ## VS. ##
