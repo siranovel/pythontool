@@ -1,33 +1,64 @@
 pythontool
 ==========
-  c言語からpythonのライブラリを使用したツール集です。
-  
+c言語からpythonのライブラリを使用したツール集です。
+
 ## Description ##
 ### ツールの種類 ###
 * pyimpinfo  
   pythonのimp情報表示
+  - 定数
+  - suffixs、suffix、mode、type
 * pyosinfo  
   pythonのos情報表示
+  - uname
+  - id情報
+  uid、gid、groups、egid、euid  
+  - devnull、login、ppid、pid、pardir、sep、defpath、cwd、name
 * pysiteinfo  
   pythonのsite情報表示
+  - check_enableusersite、ENABLE_USER_SITE、USER_SITE、USER_BASE、PREFIXES、site module
 * pysysconfiginfo  
   pythonのsysconfig情報表示
+  - PREFIX、EXEC_PREFIX、python_version、python_inc、python_lib
 * pysysinfo  
-  pythonのsys情報表示
+  pythonのsys情報表示  
+  - platform、path、version、copyright
+  - prefix  
+    prefix、exec_prefix  
+  - Encoding
+  fileSystemEncoding、defaultEncoding
 * pytarinfo  
-  pythonのtarfile情表示
-  
+  pythonのtarfile情報  
+  - ファイルサイズ、ファイル名
+
 ## Demo ##
+
 ## VS. ##
+
 ## Requirement ##
 VineLinux ver 6.5に付属しているpythonに依存
 
 ## Usage ##
+* pyimpinfo  
+  $ pyimpinfo  
+* pyosinfo  
+  $ pyosinfo
+* pysiteinfo  
+  $ pysiteinfo
+* pysysconfiginfo  
+  $ pysysconfiginfo
+* pysysinfo  
+  $ pysysinfo
+* pytarinfo  
+  $ pytarinfo tarfile
+
 ## install ##
-  git clone https://github.com/siranovel/pythontool.git  
-  cd pythontool  
-  rpm -ivh <rpmファイル名>  
-  
+    git clone ssh://git@192.168.0.10:29418/sira/pythontool.git  
+    cd pythontool  
+    rpm -ivh <rpmファイル名>  
+
 ## Contribution ##
+
 ## Licence ##
+
 ## Author ##
