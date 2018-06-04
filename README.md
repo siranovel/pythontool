@@ -30,7 +30,9 @@ c言語からpythonのライブラリを使用したツール集です。
 * pytarinfo  
   pythonのtarfile情報  
   - ファイルサイズ、ファイル名
-
+* pypilinfo  
+  画像ファイル表示プログラム
+  
 ## Demo ##
 
 ## VS. ##
@@ -51,7 +53,9 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pysysinfo
 * pytarinfo  
   $ pytarinfo tarfile
-
+* pypilinfo  
+  $ pyimage 画像ファイル名
+  
 ## install ##
     git clone ssh://git@192.168.0.10:29418/sira/pythontool.git  
     cd pythontool  
