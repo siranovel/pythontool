@@ -57,7 +57,7 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pyimage 画像ファイル名
   
 ## install ##
-    git clone ssh://git@192.168.0.10:29418/sira/pythontool.git  
+    git clone https://github.com/siranovel/pythontool.git  
     cd pythontool  
     rpm -ivh <rpmファイル名>  
 
