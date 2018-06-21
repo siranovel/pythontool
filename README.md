@@ -31,7 +31,24 @@ c言語からpythonのライブラリを使用したツール集です。
   pythonのtarfile情報  
   - ファイルサイズ、ファイル名
 * pypilinfo  
+  - dspimage  
   画像ファイル表示プログラム
+  - pypilinfo
+  画像の情報を表示
+    - 画像フォーマット
+    - サイズ
+    - カラーモード
+* pyrpminfo  
+  rpmファイル情報を表示
+    - rpmのversion
+    - Name-Version-Release
+    - Distribution
+    - Vendor
+    - License
+    - Packager
+* pyrpmtaginfo  
+   rpmのtagnames情報表示
+  
   
 ## Demo ##
 
@@ -55,7 +72,11 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pytarinfo tarfile
 * pypilinfo  
   $ pyimage 画像ファイル名
-  
+* pyrpminfo  
+  $ pyrpminfo rpmファイル
+* pyrpmtaginfo  
+  $ pyrpmtaginfo
+
 ## install ##
     git clone https://github.com/siranovel/pythontool.git  
     cd pythontool  
