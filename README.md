@@ -47,8 +47,10 @@ c言語からpythonのライブラリを使用したツール集です。
     - License
     - Packager
 * pyrpmtaginfo  
-   rpmのtagnames情報表示
-  
+  rpmのtagnames情報表示
+* pyrpm  
+  rpmのアップグレード及び削除ツール
+  (rpm-pythonを利用)
   
 ## Demo ##
 
@@ -76,6 +78,8 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pyrpminfo rpmファイル
 * pyrpmtaginfo  
   $ pyrpmtaginfo
+* pyrpm  
+  $ pyrpm [-u] [-e] PACKAGE_FILE | PACKAGE_NAME
 
 ## install ##
     git clone https://github.com/siranovel/pythontool.git  
