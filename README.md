@@ -48,9 +48,6 @@ c言語からpythonのライブラリを使用したツール集です。
     - Packager
 * pyrpmtaginfo  
   rpmのtagnames情報表示
-* pyrpm  
-  rpmのアップグレード及び削除ツール
-  (rpm-pythonを利用)
   
 ## Demo ##
 
