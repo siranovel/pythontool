@@ -51,8 +51,8 @@ c言語からpythonのライブラリを使用したツール集です。
   rpmのtagnames情報表示
 
 * pyclz  
-  - pyclz2
-  - pyclz3
+  - pyclz2  
+  - pyclz3  
 
 ## Demo ##
 
@@ -80,9 +80,9 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pyrpminfo rpmファイル
 * pyrpmtaginfo  
   $ pyrpmtaginfo
-* pylz 
-  $ pylz2
-  $ pylz3
+* pylz  
+  $ pylz2  
+  $ pylz3  
 
 ## install ##
     git clone https://github.com/siranovel/pythontool.git  
