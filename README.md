@@ -39,6 +39,7 @@ c言語からpythonのライブラリを使用したツール集です。
     - サイズ
     - カラーモード
 * pyrpminfo  
+  - pyrpminfo  
   rpmファイル情報を表示
     - rpmのversion
     - Name-Version-Release
@@ -46,9 +47,13 @@ c言語からpythonのライブラリを使用したツール集です。
     - Vendor
     - License
     - Packager
-* pyrpmtaginfo  
+  - pyrpmtaginfo  
   rpmのtagnames情報表示
-  
+
+* pyclz  
+  - pyclz2
+  - pyclz3
+
 ## Demo ##
 
 ## VS. ##
@@ -75,8 +80,9 @@ VineLinux ver 6.5に付属しているpythonに依存
   $ pyrpminfo rpmファイル
 * pyrpmtaginfo  
   $ pyrpmtaginfo
-* pyrpm  
-  $ pyrpm [-u] [-e] PACKAGE_FILE | PACKAGE_NAME
+* pylz 
+  $ pylz2
+  $ pylz3
 
 ## install ##
     git clone https://github.com/siranovel/pythontool.git  
