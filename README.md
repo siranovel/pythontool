@@ -49,7 +49,8 @@ c言語からpythonのライブラリを使用したツール集です。
     - Packager
   - pyrpmtaginfo  
   rpmのtagnames情報表示
-
+* pyrpm  
+  https://github.com/siranovel/pyrpm.git  に移動
 * pyclz  
   - pyclz2  
   - pyclz3  
