@@ -49,6 +49,9 @@ c言語からpythonのライブラリを使用したツール集です。
     - Packager
   - pyrpmtaginfo  
   rpmのtagnames情報表示
+    - no
+    - TAG名
+    - TAG定数
 * pyclz  
   - pyclz2
   - pyclz3
