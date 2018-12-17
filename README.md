@@ -5,6 +5,9 @@ c言語からpythonのライブラリを使用したツール集です。
 ## Description ##
 ![ucPythonTool](images/ucPythonTool.jpg)
 
+詳細は、
+
+https://github.com/siranovel/pythontool/wiki
 ## Demo ##
 
 ## VS. ##
