@@ -1,4 +1,4 @@
-pythontool
+﻿pythontool
 ==========
 c言語からpythonのライブラリを使用したツール集です。
 
@@ -49,4 +49,9 @@ VineLinux ver 6.5に付属しているpythonに依存
 
 ## Licence ##
 
+[MIT](LICENSE)
+
+
 ## Author ##
+
+[siranovel](https://github.com/siranovel)
