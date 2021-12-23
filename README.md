@@ -6,8 +6,8 @@ c言語からpythonのライブラリを使用したツール集です。
 ![ucPythonTool](images/ucPythonTool.jpg)
 
 詳細は、
+https://siranovel.github.io/mydocs/pythontool  
 
-https://github.com/siranovel/pythontool/wiki
 ## Demo ##
 
 ## VS. ##
@@ -16,29 +16,6 @@ https://github.com/siranovel/pythontool/wiki
 VineLinux ver 6.5に付属しているpythonに依存
 
 ## Usage ##
-* pyimpinfo  
-  $ pyimpinfo  
-* pyosinfo  
-  $ pyosinfo
-* pysiteinfo  
-  $ pysiteinfo
-* pysysconfiginfo  
-  $ pysysconfiginfo
-* pysysinfo  
-  $ pysysinfo
-* pytarinfo  
-  $ pytarinfo tarfile
-* pypilinfo  
-  $ pyimage 画像ファイル名
-* pyrpminfo  
-  $ pyrpminfo rpmファイル
-* pyrpmtaginfo  
-  $ pyrpmtaginfo
-* pylz  
-  $ pylz2  
-  $ pylz3  
-* pypass  
-  $ pyuser
 
 ## install ##
     git clone https://github.com/siranovel/pythontool.git  
